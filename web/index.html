@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css" type="text/css"/>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css" type="text/css">
+
+
+        <title>Tarefa 01 - Calculadora</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    </head>
+    <body style="background-color: gray">
+        <style>
+            h5 {
+                font-weight: 700;
+                color: #ffffff;
+            }
+            FONT {
+                font-weight: 300;
+                color: #ffffff;
+                font-size:19px;
+            }
+        </style>
+        <nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
+            <FONT>Tarefa 01: Calculadora online (Victor Proença Batista de Carvalho)</FONT>
+        </nav>
+        <header style="margin-top: 69px;"></header>
+        <div class="container">    
+            <form action="calculator" method="get">
+                <h5>Primeiro operando: </h5><input type="text" class="form-control form-control-sm" name="num1">
+                <h5>Segundo operando: </h5><input type="text" class="form-control form-control-sm" name="num2">
+                <br>
+                <h5>Selecione a operação que você deseja fazer:</h5>
+                <input type="radio" name="opr" value="+"> <FONT>&nbsp; Adição </FONT><br/>
+                <input type="radio" name="opr" value="-"> <FONT>&nbsp; Subtração </FONT><br/>
+                <input type="radio" name="opr" value="x"> <FONT>&nbsp; Multiplicação </FONT><br/>
+                <input type="radio" name="opr" value="/"> <FONT>&nbsp; Divisão </FONT><br/>
+                <br>
+                <input type="submit" class="btn btn-primary">&nbsp;
+                <input type="reset" class="btn btn-primary"> &nbsp;
+            </form>
+        </div>
+    </body>
+</html>
